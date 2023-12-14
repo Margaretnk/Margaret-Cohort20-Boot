@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alert1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/4e4113349d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- styling the heading of the page with class: header -->
+            <!-- mx:margin left and right. my: margin top and bottom -->
+        <div class="header my-3 mx-auto text-center ">
+            <h1 class="mb-4"> <span style="color: blue;">Bootstrap 5 Alerts Assignment</span></h1>
+        </div>
+          
+
+       
+         <div class="container-fluid">
+                <!-- Success Alert with Checkmark Icon -->
+                <!-- alert-dismissible: Positions the close button absolutely and styles it to be at the top-right corner of the alert. -->
+                <div class="alert alert-success alert-dismissible fade show" role="alert ">
+                    <i class="fas fa-check-circle fa-lg"></i> <strong>Success!</strong> Your message has been sent successfully.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+        
+                <!-- Error Alert with Exclamation Triangle Icon -->
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <i class="fas fa-exclamation-triangle fa-lg"></i> <strong> Error! </strong> A problem has been occured while submitting your data.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+        
+                <!-- Warning Alert with Exclamation Circle Icon -->
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <i class="fas fa-exclamation-triangle fa-lg"></i> <strong> Warning!</strong> There was a problem with your network connection.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+        
+                <!-- Info Alert with Info Circle Icon -->
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <i class="fas fa-info-circle fa-lg"></i> <strong> Info! </strong> Please read the comments carefully.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+         </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
